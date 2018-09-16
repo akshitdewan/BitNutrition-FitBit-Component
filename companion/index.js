@@ -8,7 +8,7 @@ function fetchSleepData(accessToken)  {
 
   // Sleep API docs - https://dev.fitbit.com/reference/web-api/sleep/
   //fitbit https://api.fitbit.com/1.2/user/-/sleep/date/${todayDate}.json
-  fetch('https://htn-food.firebaseio.com/htn-food/products.json', {
+  fetch('https://htn-food.firebaseio.com/suggested_food.json', {
     method: "GET",
     headers: {
     }

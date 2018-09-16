@@ -13,7 +13,7 @@ messaging.peerSocket.onmessage = evt => {
   for(let key in data) {
   	array.push(data[key]);
   }
-  console.log(JSON.stringify(array));
+  console.log("array " + JSON.stringify(array));
   let percentage = 78;
   let numViewsToDisplay = Math.floor(percentage/20);
   console.log(numViewsToDisplay);
@@ -56,7 +56,7 @@ VTList.delegate = {
   },		
   configureTile: function(tile, info) {
     if (info.type == "my-pool") {
-      tile.getElementById("text").text = info.index.title;//`$‌{info.value} $‌{info.index}`;
+      tile.getElementById("text").text = info.index;//`$‌{info.value} $‌{info.index}`;
       let touch = tile.getElementById("touch-me");
       touch.onclick = evt => {
         console.log(`touched: $‌{info.index}`);

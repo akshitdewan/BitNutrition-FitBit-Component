@@ -2,7 +2,7 @@
 	<defs>
     <symbol id="my-tile-item" href="#tile-list-item" focusable="false"
             pointer-events="none" system-events="all" display="none">
-      <text id="text" text-length = "300"/>
+      <text id="text" text-length = "1000"/>
       <rect id="tile-divider-bottom" class="tile-divider-bottom" />
       <rect id="touch-me" pointer-events="all" x="0" y="0" width="100%"
             height="100%-2" opacity="0" />
@@ -49,7 +49,7 @@
     </use>
  </use> -->
 
- <use id="my-list" href="#tile-list" y = "60" height="100% - 60" width="100%">
+ <use id="my-list" href="#tile-list" y = "60" height="100% - 60" width="1000">
     <var id="virtual" value="1" />
     <var id="separator-height-bottom" value="2" />
 
