@@ -1,0 +1,23 @@
+#container {
+	height: 100%;
+	width: 100%;
+}
+#green {
+	display: none;
+	width : "60";
+}
+
+.tile-list-item {
+	height: 88;
+	width: 100%;
+	fill: green;
+}
+
+.tile-list-item text {
+  height: 32;
+  width: 200;
+  font-family: System-Regular;
+  fill: black;
+
+}
+
